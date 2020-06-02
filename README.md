@@ -23,3 +23,7 @@ Please find the appropriate volume and issue number of the Journal for Semitics 
 For instance: 
 
 Johan de Joode. 2020. "Digital Masorah: Toward an Index of Orthographic and Morphological Variation at the Lexical Level". Journal for Semitics VOL (ISSUE). https://doi.org/10.25159/2663-6573/6632.
+
+# Acknowledgement
+
+The research for this article and this dataset was conducted as part of the project A corpus linguistic approach of Classical Hebrew: A pilot project (3H160213, KU Leuven, Eibert Tigchelaar and Pierre Van Hecke).
