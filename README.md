@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/268883040.svg)](https://zenodo.org/badge/latestdoi/268883040)
+
+
+
 # Contents
 
 This repository contains an index of morphological and orthographic variation at the lexical level in the Hebrew Bible and the larger Dead Sea Scrolls. 
