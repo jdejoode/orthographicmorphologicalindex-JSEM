@@ -2,6 +2,8 @@
 
 This repository contains an index of morphological and orthographic variation at the lexical level in the Hebrew Bible and the larger Dead Sea Scrolls. 
 
+1. Download and unzip [the zip file](https://github.com/jdejoode/orthomorphindex-JSEM/archive/master.zip) or alternatively clone this repository.
+
 1. To navigate the entire index, open Index.html. Depending on your computer, it may take multiple seconds to open this file. 
 
 2. To investigate specific books or scrolls, open the profiles/html folder and choose the relevant book or scroll.
