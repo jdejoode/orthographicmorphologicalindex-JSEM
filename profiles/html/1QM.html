@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+
+    <title>1QM</title>
+    
+  </head>
+  <body>
+  <div class="container">  <h1>1QM</h1>
+  <!--
+    <div class="modal fade text-center" id="theModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        </div>
+      </div>
+    </div>
+    -->
+                    <style>
+        p {
+                font-family:"SBL Hebrew";
+                font-size:20px;
+                margin-bottom:0px; }
+    </style><table border="1" class="dataframe table-hover table-sm">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>1QM</th>
+      <th>RelFreq_1QM</th>
+      <th>AbsFreqCorpus</th>
+      <th>TotalProfileFreq</th>
+      <th>NrOfVarCorpus</th>
+      <th>DocFreq</th>
+      <th>RelDocFreq</th>
+      <th>Concordance</th>
+    </tr>
+    <tr>
+      <th>Lemma</th>
+      <th>Morph</th>
+      <th>TokenConsonants</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th rowspan="2" valign="top">אֹרֶךְ (ארך)</th>
+      <th rowspan="2" valign="top">NCMSC</th>
+      <th>אורכ</th>
+      <td>4</td>
+      <td>0.001</td>
+      <td>6</td>
+      <td>36</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/אֹרֶךְ (ארך)_NCMSC_אורכ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>ארוכ</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>36</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/אֹרֶךְ (ארך)_NCMSC_ארוכ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">הֵם (הוא)</th>
+      <th rowspan="2" valign="top">OI3MP</th>
+      <th>המ</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>282</td>
+      <td>590</td>
+      <td>2</td>
+      <td>23</td>
+      <td>0.885</td>
+      <td><a class="li-modal" href="./concordances/1QM/הֵם (הוא)_OI3MP_המ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>המה</th>
+      <td>8</td>
+      <td>0.002</td>
+      <td>308</td>
+      <td>590</td>
+      <td>2</td>
+      <td>24</td>
+      <td>0.923</td>
+      <td><a class="li-modal" href="./concordances/1QM/הֵם (הוא)_OI3MP_המה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">הוּא (הוא)</th>
+      <th rowspan="2" valign="top">OI3MS</th>
+      <th>הוא</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1362</td>
+      <td>1414</td>
+      <td>4</td>
+      <td>25</td>
+      <td>0.962</td>
+      <td><a class="li-modal" href="./concordances/1QM/הוּא (הוא)_OI3MS_הוא.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>הואה</th>
+      <td>4</td>
+      <td>0.001</td>
+      <td>49</td>
+      <td>1414</td>
+      <td>4</td>
+      <td>4</td>
+      <td>0.154</td>
+      <td><a class="li-modal" href="./concordances/1QM/הוּא (הוא)_OI3MS_הואה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">חזק</th>
+      <th rowspan="2" valign="top">VHC</th>
+      <th>החזיק</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>6</td>
+      <td>9</td>
+      <td>4</td>
+      <td>5</td>
+      <td>0.192</td>
+      <td><a class="li-modal" href="./concordances/1QM/חזק_VHC_החזיק.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>חזיק</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>9</td>
+      <td>4</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/חזק_VHC_חזיק.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">יָד (יד)</th>
+      <th rowspan="2" valign="top">NCFDC</th>
+      <th>ידי</th>
+      <td>4</td>
+      <td>0.001</td>
+      <td>50</td>
+      <td>51</td>
+      <td>2</td>
+      <td>19</td>
+      <td>0.731</td>
+      <td><a class="li-modal" href="./concordances/1QM/יָד (יד)_NCFDC_ידי.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>יידי</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>51</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/יָד (יד)_NCFDC_יידי.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">כתב</th>
+      <th rowspan="2" valign="top">VQI3MP</th>
+      <th>יכתבו</th>
+      <td>2</td>
+      <td>0.000</td>
+      <td>2</td>
+      <td>34</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/כתב_VQI3MP_יכתבו.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>יכתובו</th>
+      <td>32</td>
+      <td>0.006</td>
+      <td>32</td>
+      <td>34</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/כתב_VQI3MP_יכתובו.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">לֵוִי (לוה)</th>
+      <th rowspan="2" valign="top">NGMPA</th>
+      <th>לויימ</th>
+      <td>7</td>
+      <td>0.001</td>
+      <td>23</td>
+      <td>28</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/לֵוִי (לוה)_NGMPA_לויימ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>לוימ</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>5</td>
+      <td>28</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0.077</td>
+      <td><a class="li-modal" href="./concordances/1QM/לֵוִי (לוה)_NGMPA_לוימ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">מְאֹד (מאד)</th>
+      <th rowspan="2" valign="top">PD_light_suffix</th>
+      <th>מאד</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>3</td>
+      <td>15</td>
+      <td>4</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/מְאֹד (מאד)_PD_light_suffix_מאד.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>מואד</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>7</td>
+      <td>15</td>
+      <td>4</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/מְאֹד (מאד)_PD_light_suffix_מואד.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">מְהוּמָה (הום)</th>
+      <th rowspan="2" valign="top">NCFSA</th>
+      <th>מהומה</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>10</td>
+      <td>11</td>
+      <td>2</td>
+      <td>7</td>
+      <td>0.269</td>
+      <td><a class="li-modal" href="./concordances/1QM/מְהוּמָה (הום)_NCFSA_מהומה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>מהמה</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>11</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/מְהוּמָה (הום)_NCFSA_מהמה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">מִרְדָּף (רדף)</th>
+      <th rowspan="2" valign="top">NCMSA</th>
+      <th>מרדופ</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/מִרְדָּף (רדף)_NCMSA_מרדופ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>מרדפ</th>
+      <td>3</td>
+      <td>0.001</td>
+      <td>3</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/מִרְדָּף (רדף)_NCMSA_מרדפ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">מַחֲנֶה (חנה)</th>
+      <th rowspan="2" valign="top">NCBPC_light_suffix</th>
+      <th>מחנ</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>3</td>
+      <td>4</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0.077</td>
+      <td><a class="li-modal" href="./concordances/1QM/מַחֲנֶה (חנה)_NCBPC_light_suffix_מחנ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>מחנות</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>4</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/מַחֲנֶה (חנה)_NCBPC_light_suffix_מחנות.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">נָשִׂיא־1 (נשׂא)</th>
+      <th rowspan="2" valign="top">NCMSC</th>
+      <th>נשי</th>
+      <td>2</td>
+      <td>0.000</td>
+      <td>2</td>
+      <td>18</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/נָשִׂיא־1 (נשׂא)_NCMSC_נשי.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>נשיא</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>16</td>
+      <td>18</td>
+      <td>2</td>
+      <td>6</td>
+      <td>0.231</td>
+      <td><a class="li-modal" href="./concordances/1QM/נָשִׂיא־1 (נשׂא)_NCMSC_נשיא.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">עֲשָׂרָה (עשׂר)</th>
+      <th rowspan="2" valign="top">AMPCC_light_suffix</th>
+      <th>עושרות</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/עֲשָׂרָה (עשׂר)_AMPCC_light_suffix_עושרות.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>עשרות</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/עֲשָׂרָה (עשׂר)_AMPCC_light_suffix_עשרות.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="3" valign="top">רֹאשׁ־1 (ראשׁ)</th>
+      <th rowspan="3" valign="top">NCMSA</th>
+      <th>ראוש</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>5</td>
+      <td>105</td>
+      <td>4</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/רֹאשׁ־1 (ראשׁ)_NCMSA_ראוש.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>ראש</th>
+      <td>3</td>
+      <td>0.001</td>
+      <td>93</td>
+      <td>105</td>
+      <td>4</td>
+      <td>20</td>
+      <td>0.769</td>
+      <td><a class="li-modal" href="./concordances/1QM/רֹאשׁ־1 (ראשׁ)_NCMSA_ראש.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>רואש</th>
+      <td>2</td>
+      <td>0.000</td>
+      <td>4</td>
+      <td>105</td>
+      <td>4</td>
+      <td>2</td>
+      <td>0.077</td>
+      <td><a class="li-modal" href="./concordances/1QM/רֹאשׁ־1 (ראשׁ)_NCMSA_רואש.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">רוּחַ (רוח)</th>
+      <th rowspan="2" valign="top">NCBPC</th>
+      <th>רוחות</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>10</td>
+      <td>18</td>
+      <td>2</td>
+      <td>4</td>
+      <td>0.154</td>
+      <td><a class="li-modal" href="./concordances/1QM/רוּחַ (רוח)_NCBPC_רוחות.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>רוחי</th>
+      <td>6</td>
+      <td>0.001</td>
+      <td>8</td>
+      <td>18</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0.077</td>
+      <td><a class="li-modal" href="./concordances/1QM/רוּחַ (רוח)_NCBPC_רוחי.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">אַתֶּם (אתה)</th>
+      <th rowspan="2" valign="top">OI2MP</th>
+      <th>אתמ</th>
+      <td>2</td>
+      <td>0.000</td>
+      <td>257</td>
+      <td>278</td>
+      <td>2</td>
+      <td>20</td>
+      <td>0.769</td>
+      <td><a class="li-modal" href="./concordances/1QM/אַתֶּם (אתה)_OI2MP_אתמ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>אתמה</th>
+      <td>2</td>
+      <td>0.000</td>
+      <td>21</td>
+      <td>278</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/אַתֶּם (אתה)_OI2MP_אתמה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">בְּדָן (עבד)</th>
+      <th rowspan="2" valign="top">NCMPC</th>
+      <th>אבדני</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/בְּדָן (עבד)_NCMPC_אבדני.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>בדני</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>2</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/בְּדָן (עבד)_NCMPC_בדני.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">בֵּנַיִם (בין)</th>
+      <th rowspan="2" valign="top">NCMDA</th>
+      <th>בינימ</th>
+      <td>9</td>
+      <td>0.002</td>
+      <td>9</td>
+      <td>16</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/בֵּנַיִם (בין)_NCMDA_בינימ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>בנימ</th>
+      <td>4</td>
+      <td>0.001</td>
+      <td>7</td>
+      <td>16</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/בֵּנַיִם (בין)_NCMDA_בנימ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="5" valign="top">גּוֹי (גוה)</th>
+      <th rowspan="3" valign="top">NCMPA</th>
+      <th>גואימ</th>
+      <td>2</td>
+      <td>0.000</td>
+      <td>56</td>
+      <td>419</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/גּוֹי (גוה)_NCMPA_גואימ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>גויימ</th>
+      <td>2</td>
+      <td>0.000</td>
+      <td>5</td>
+      <td>419</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0.077</td>
+      <td><a class="li-modal" href="./concordances/1QM/גּוֹי (גוה)_NCMPA_גויימ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>גוימ</th>
+      <td>3</td>
+      <td>0.001</td>
+      <td>358</td>
+      <td>419</td>
+      <td>3</td>
+      <td>23</td>
+      <td>0.885</td>
+      <td><a class="li-modal" href="./concordances/1QM/גּוֹי (גוה)_NCMPA_גוימ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">NCMPC</th>
+      <th>גוי</th>
+      <td>5</td>
+      <td>0.001</td>
+      <td>7</td>
+      <td>15</td>
+      <td>2</td>
+      <td>2</td>
+      <td>0.077</td>
+      <td><a class="li-modal" href="./concordances/1QM/גּוֹי (גוה)_NCMPC_גוי.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>גויי</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>8</td>
+      <td>15</td>
+      <td>2</td>
+      <td>4</td>
+      <td>0.154</td>
+      <td><a class="li-modal" href="./concordances/1QM/גּוֹי (גוה)_NCMPC_גויי.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="22" valign="top">SUF</th>
+      <th rowspan="2" valign="top">S2MP_heavy_suffix_on_NCMPC</th>
+      <th>יכמ</th>
+      <td>4</td>
+      <td>0.001</td>
+      <td>544</td>
+      <td>569</td>
+      <td>4</td>
+      <td>22</td>
+      <td>0.846</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S2MP_heavy_suffix_on_NCMPC_יכמ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>יכמה</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>18</td>
+      <td>569</td>
+      <td>4</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S2MP_heavy_suffix_on_NCMPC_יכמה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">S2MP_heavy_suffix_on_NCMSC</th>
+      <th>כמ</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>196</td>
+      <td>246</td>
+      <td>4</td>
+      <td>22</td>
+      <td>0.846</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S2MP_heavy_suffix_on_NCMSC_כמ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>כמה</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>16</td>
+      <td>246</td>
+      <td>4</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S2MP_heavy_suffix_on_NCMSC_כמה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">S2MS_light_suffix_on_NCFSC</th>
+      <th>כ</th>
+      <td>2</td>
+      <td>0.000</td>
+      <td>807</td>
+      <td>942</td>
+      <td>2</td>
+      <td>24</td>
+      <td>0.923</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S2MS_light_suffix_on_NCFSC_כ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>כה</th>
+      <td>28</td>
+      <td>0.005</td>
+      <td>135</td>
+      <td>942</td>
+      <td>2</td>
+      <td>7</td>
+      <td>0.269</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S2MS_light_suffix_on_NCFSC_כה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">S2MS_light_suffix_on_NCMPC</th>
+      <th>יכ</th>
+      <td>2</td>
+      <td>0.000</td>
+      <td>991</td>
+      <td>1104</td>
+      <td>3</td>
+      <td>25</td>
+      <td>0.962</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S2MS_light_suffix_on_NCMPC_יכ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>יכה</th>
+      <td>13</td>
+      <td>0.002</td>
+      <td>100</td>
+      <td>1104</td>
+      <td>3</td>
+      <td>5</td>
+      <td>0.192</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S2MS_light_suffix_on_NCMPC_יכה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">S3FS_light_suffix_on_PP__כְּמוֹ</th>
+      <th>ה</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>4</td>
+      <td>5</td>
+      <td>2</td>
+      <td>4</td>
+      <td>0.154</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3FS_light_suffix_on_PP__כְּמוֹ_ה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>הה</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>5</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3FS_light_suffix_on_PP__כְּמוֹ_הה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">S3MP_heavy_suffix_on_NCBPC</th>
+      <th>יהמ</th>
+      <td>5</td>
+      <td>0.001</td>
+      <td>175</td>
+      <td>180</td>
+      <td>3</td>
+      <td>26</td>
+      <td>1.000</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MP_heavy_suffix_on_NCBPC_יהמ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>יהמה</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>4</td>
+      <td>180</td>
+      <td>3</td>
+      <td>2</td>
+      <td>0.077</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MP_heavy_suffix_on_NCBPC_יהמה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">S3MP_heavy_suffix_on_PP__לְ</th>
+      <th>המ</th>
+      <td>9</td>
+      <td>0.002</td>
+      <td>615</td>
+      <td>649</td>
+      <td>2</td>
+      <td>26</td>
+      <td>1.000</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MP_heavy_suffix_on_PP__לְ_המ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>המה</th>
+      <td>3</td>
+      <td>0.001</td>
+      <td>34</td>
+      <td>649</td>
+      <td>2</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MP_heavy_suffix_on_PP__לְ_המה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">S3MP_heavy_suffix_on_PP__עִם</th>
+      <th>המ</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>20</td>
+      <td>21</td>
+      <td>2</td>
+      <td>8</td>
+      <td>0.308</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MP_heavy_suffix_on_PP__עִם_המ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>המה</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>1</td>
+      <td>21</td>
+      <td>2</td>
+      <td>1</td>
+      <td>0.038</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MP_heavy_suffix_on_PP__עִם_המה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">S3MP_light_suffix_on_NCFPC</th>
+      <th>מ</th>
+      <td>8</td>
+      <td>0.002</td>
+      <td>243</td>
+      <td>255</td>
+      <td>3</td>
+      <td>23</td>
+      <td>0.885</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MP_light_suffix_on_NCFPC_מ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>מה</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>10</td>
+      <td>255</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MP_light_suffix_on_NCFPC_מה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">S3MP_light_suffix_on_NCFSC</th>
+      <th>מ</th>
+      <td>19</td>
+      <td>0.004</td>
+      <td>526</td>
+      <td>551</td>
+      <td>3</td>
+      <td>26</td>
+      <td>1.000</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MP_light_suffix_on_NCFSC_מ.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>מה</th>
+      <td>1</td>
+      <td>0.000</td>
+      <td>24</td>
+      <td>551</td>
+      <td>3</td>
+      <td>3</td>
+      <td>0.115</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MP_light_suffix_on_NCFSC_מה.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th rowspan="2" valign="top">S3MS_light_suffix_on_NCMSC</th>
+      <th>הו</th>
+      <td>2</td>
+      <td>0.000</td>
+      <td>248</td>
+      <td>3500</td>
+      <td>10</td>
+      <td>26</td>
+      <td>1.000</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MS_light_suffix_on_NCMSC_הו.html">Concordance</a></td>
+    </tr>
+    <tr>
+      <th>ו</th>
+      <td>27</td>
+      <td>0.005</td>
+      <td>2768</td>
+      <td>3500</td>
+      <td>10</td>
+      <td>26</td>
+      <td>1.000</td>
+      <td><a class="li-modal" href="./concordances/1QM/SUF_S3MS_light_suffix_on_NCMSC_ו.html">Concordance</a></td>
+    </tr>
+  </tbody>
+</table></div>
+                    <script src="./static/js/jquery.min.js"></script>          
+                    <script src="./static/js/bootstrap.bundle.min.js"></script> 
+                    <!-- <script>
+                    $('.li-modal').on('click', function(e){
+                          e.preventDefault();
+                          $('#theModal').modal('show').find('.modal-content').load($(this).attr('href'));
+                        });
+                    </script>
+                    -->
+                                        
+                    </body></html>
